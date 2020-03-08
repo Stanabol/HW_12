@@ -1,1 +1,70 @@
 /* styles goes here */
+body {
+    background-color: #E5E5E5;
+}
+.header {
+    height: 1070px;
+    text-align: center;
+    background: url(../img/bg1.svg)no-repeat;
+    background-size: cover;
+    margin-bottom: 160px;
+}
+
+.header img:first-child {
+    margin-top: 347px;
+}
+
+.header img {
+    margin-top: 215px;
+}
+.header h1 {
+    margin: 0 auto;
+    margin-top: 67px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 65px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 610px;
+}
+
+.header p {
+    margin: 0 auto;
+    margin-top: 27px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 610px;
+}
+
+.border {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #3C3C3C;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.border__title {
+    width: max-content;
+    align-items: center;
+    margin-top: -10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #E5E5E5;
+}
+
+.col-6 p {
+    width: 100%;
+    
+}
