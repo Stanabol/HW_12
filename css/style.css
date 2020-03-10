@@ -7,10 +7,16 @@ body {
     text-align: center;
     background: url(../img/bg1.svg)no-repeat;
     background-size: cover;
+    background-position: center;
     margin-bottom: 160px;
 }
 
 .header img:first-child {
+    margin-top: 347px;
+}
+
+.logosvg {
+    
     margin-top: 347px;
 }
 
@@ -53,30 +59,18 @@ legend {
     padding-right: 100px;
     text-align: center;
 }
-/* .border {
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    width: 930px;
-    margin-bottom: 160px;
+
+.sectionone {
     text-align: center;
-    border: 1px solid #3C3C3C;
-    box-sizing: border-box;
-    flex-direction: column;
-} */
-.border__title {
-    width: max-content;
-    align-items: center;
-    margin-top: -10px;
-    padding-left: 100px;
-    padding-right: 100px;
-    background-color: #E5E5E5;
+    /* padding-left: 240px;
+    padding-right: 240px; */
+}
+.sectiontwo__borderwhite {
+    padding-left: 240px;
+    padding-right: 240px;
+    text-align: center;
 }
 
-.col-6 p {
-    /* width: 100%; */
-    
-}
 
 .sectiontwo {
     margin: 0 auto;
