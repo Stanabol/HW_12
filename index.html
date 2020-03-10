@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/bootstrap-grid.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -30,8 +31,29 @@
                     fill="white" />
             </g>
         </symbol>
+        <symbol id="logo1" viewBox="0 0 35 37" fill="none">
+            <g clip-path="url(#clip1)">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M32.2989 34.9274L17.6826 7.02881L3.06683 34.9274H32.2989Z" stroke="#3C3C3C" stroke-width="2" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M17.5 0.50748C20.8261 0.53592 24.0694 1.54822 26.8212 3.41683C29.5729 5.28543 31.71 7.92674 32.9632 11.0079C34.2163 14.089 34.5294 17.4722 33.8631 20.731C33.1967 23.9898 31.5807 26.9785 29.2186 29.3204C26.8565 31.6623 23.8541 33.2526 20.5897 33.891C17.3253 34.5294 13.945 34.1873 10.8747 32.9078C7.8044 31.6283 5.18154 29.4686 3.33659 26.7009C1.49165 23.9333 0.507184 20.6814 0.507263 17.3552C0.516768 15.1332 0.963851 12.9348 1.82296 10.8856C2.68208 8.83635 3.93641 6.97641 5.51434 5.41196C7.09227 3.8475 8.96286 2.60917 11.0194 1.76766C13.0759 0.926142 15.278 0.497934 17.5 0.50748V0.50748Z"
+                    stroke="#3C3C3C" stroke-width="2" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M17.6826 32.3911C18.0403 32.3939 18.3892 32.5026 18.6853 32.7034C18.9814 32.9042 19.2114 33.1881 19.3464 33.5194C19.4814 33.8507 19.5152 34.2146 19.4437 34.5651C19.3722 34.9157 19.1985 35.2372 18.9446 35.4891C18.6906 35.7411 18.3677 35.9123 18.0167 35.981C17.6656 36.0498 17.302 36.0131 16.9718 35.8756C16.6415 35.738 16.3594 35.5058 16.1609 35.2081C15.9624 34.9105 15.8565 34.5608 15.8565 34.203C15.8585 33.7206 16.052 33.2588 16.3944 32.919C16.7369 32.5793 17.2002 32.3894 17.6826 32.3911Z"
+                    fill="#3C3C3C" />
+                <path
+                    d="M31.2032 36.0305C32.2146 36.0305 33.0344 35.2106 33.0344 34.1993C33.0344 33.188 32.2146 32.3682 31.2032 32.3682C30.1919 32.3682 29.3721 33.188 29.3721 34.1993C29.3721 35.2106 30.1919 36.0305 31.2032 36.0305Z"
+                    fill="#3C3C3C" />
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M3.0653 32.3911C3.42304 32.3939 3.77194 32.5026 4.06803 32.7034C4.36412 32.9042 4.59412 33.1881 4.72908 33.5194C4.86405 33.8507 4.8979 34.2146 4.82639 34.5651C4.75488 34.9157 4.58121 35.2372 4.32726 35.4891C4.0733 35.7411 3.75044 35.9123 3.39936 35.981C3.04828 36.0498 2.68472 36.0131 2.35446 35.8756C2.02421 35.738 1.74207 35.5058 1.54359 35.2081C1.34512 34.9105 1.23921 34.5608 1.2392 34.203C1.24121 33.7206 1.4347 33.2588 1.77712 32.919C2.11955 32.5793 2.58292 32.3894 3.0653 32.3911Z"
+                    fill="#3C3C3C" />
+            </g>
+        </symbol>
         <clipPath id="clip0">
             <rect width="69" height="71" fill="white" />
+        </clipPath>
+        <clipPath id="clip1">
+            <rect width="35" height="36.0145" fill="white" />
         </clipPath>
     </svg>
 
@@ -40,8 +62,9 @@
             <use xlink:href="#logo"></use>
         </svg>
         <!-- <img src="img\logo.svg" alt=""> -->
-        <h1>WORKING WITH design LAB</h1>
-        <p>We’ve been helping startups launch and grow their businesses. We help you to fill the gap between
+        <h1 class="header__title">WORKING WITH design LAB</h1>
+        <p class="header__content">We’ve been helping startups launch and grow their businesses. We help you to fill the
+            gap between
             development, design and product management.</p>
         <img src="img\scroll.svg" alt="">
     </div>
@@ -52,10 +75,10 @@
                     <fieldset class="sectionone__border">
                         <legend class="border__title"> About us</legend>
                         <div class="col-6 offset-3">
-                            <p class="border__"> When you work with us, you are part of a team of committed
+                            <p class="col-6__content"> When you work with us, you are part of a team of committed
                                 collaborators.
                                 All aspects of our software development process are integrated, iterative and agile.</p>
-                            <p>Our approach unifies design, development and
+                            <p class="col-6__content">Our approach unifies design, development and
                                 product management to create exceptional products.
                                 We start each project by understanding your business goals,
                                 the user’s needs and the product requirements.
@@ -71,15 +94,29 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <fieldset class="sectiontwo__borderwhite d-flex column">
-                        <legend> Services</legend>
-                        <p> Before we sign a contract or write a line of code our team will spend the necessary time
-                            needed
-                            to understand your product vision. The outcome of this scoping session is a proposal or
-                            high-level statement of work.</p>
-                        <p>Based on your requirements, we can provide a complete offering or just the pieces you need.
-                        </p>
-                    </fieldset>
+                    <div class="row">
+
+                        <fieldset class="sectiontwo__borderwhite d-flex column">
+                            <legend class="borderwhite__title"> Services</legend>
+                            <div class="col-6 offset-3">
+                                <p class="col-6__content-white"> Before we sign a contract or write a line of code our
+                                    team
+                                    will
+                                    spend
+                                    the necessary time
+                                    needed
+                                    to understand your product vision. The outcome of this scoping session is a proposal
+                                    or
+                                    high-level statement of work.</p>
+                                <p class="col-6__content-white">Based on your requirements, we can provide a complete
+                                    offering
+                                    or
+                                    just
+                                    the pieces you need.
+                                </p>
+                            </div>
+                        </fieldset>
+                    </div>
                 </div>
             </div>
         </div>
@@ -87,13 +124,14 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="sectiontree">
+                <div class="sectionone">
                     <fieldset class="sectionone__border">
-                        <legend> Services</legend>
+                        <legend class="border__title"> Services</legend>
                         <div class="col-6 offset-3">
                             <img src="img\icon1.svg" alt=""><br>
-                            <span>Desing</span>
-                            <p>Our design practice offers a full range of services including branding strategy,
+                            <span class="col-6__subtitle">Desing</span>
+                            <p class="col-6__content">Our design practice offers a full range of services including
+                                branding strategy,
                                 interaction and visual design and user experience testing.
                                 Throughout your project, our designers create and implement visual designs and
                                 workflows,
@@ -101,8 +139,9 @@
                                 needed.
                             </p>
                             <img src="img\icon2.svg" alt=""><br>
-                            <span>Development </span>
-                            <p>All engineers are fluent in the latest enterprise, mobile and web development
+                            <span class="col-6__subtitle">Development </span>
+                            <p class="col-6__content">All engineers are fluent in the latest enterprise, mobile and web
+                                development
                                 technologies.
                                 They collaborate with your team to write, test, and improve code on a daily basis,
                                 using
@@ -110,8 +149,9 @@
                                 practices such as test-driven development and pair programing.
                             </p>
                             <img src="img\icon3.svg" alt=""><br>
-                            <span>Product Management</span>
-                            <p>All engineers are fluent in the latest enterprise, mobile and web development
+                            <span class="col-6__subtitle">Product Management</span>
+                            <p class="col-6__content">All engineers are fluent in the latest enterprise, mobile and web
+                                development
                                 technologies.
                                 They collaborate with your team to write, test, and improve code on a daily basis,
                                 using
@@ -123,17 +163,62 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-4">topworkz</div>
-        <div class="col-4">joint</div>
-        <div class="col-4">MArket</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-4 ">
+                        <div class="col-4__bg-topworkz">topworkz</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="col-4__bg-joint">joint</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="col-4__bg-market">MArket</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-4 ">
+                        <div class="col-4__bg-worktop">worktop</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="col-4__bg-lable">lable</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="col-4__bg-kyiv">kyiv</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="row">
-        <div class="col-4">worktop</div>
-        <div class="col-4">lable</div>
-        <div class="col-4">kyiv</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 ">
+                <div class="sectionone d-flex column">
+                    <fieldset class="sectionone__border">
+                        <legend class="border__title">CONTACT us</legend>
+                        <div class="col-6 offset-3">
+                            <p class="col-6__content">Planning and development is iterative. Because we are constantly
+                                coding and testing, the products we build are always ready to go live. This iterative
+                                process allows for changes as business requirements evolve. </p>
+                            <div class="col-4 offset-4">
+                                <p class="col-6__button">CONTACT us</p>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
     </div>
-    </div>
+    <footer class="footer">
+        <svg class="logosvg" xmlns="http://www.w3.org/2000/svg" width="35" height="36">
+            <use xlink:href="#logo1"></use>
+        </svg>
+        &copy; 2014. All Rights Reserved Ellipsis.com</footer>
 </body>
 
 </html>
