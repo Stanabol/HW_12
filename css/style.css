@@ -48,7 +48,12 @@ body {
 .row {
     width: 100%;
 }
-.border {
+legend {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+/* .border {
     display: flex;
     align-items: center;
     margin: 0 auto;
@@ -58,7 +63,7 @@ body {
     border: 1px solid #3C3C3C;
     box-sizing: border-box;
     flex-direction: column;
-}
+} */
 .border__title {
     width: max-content;
     align-items: center;
