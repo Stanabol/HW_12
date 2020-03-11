@@ -36,7 +36,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-    width: 610px;
+    /* width: 610px; */
 }
 
 .header__content {
