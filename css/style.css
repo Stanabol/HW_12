@@ -4,6 +4,7 @@ body {
 }
 
 .header {
+    display: block;
     height: 1070px;
     text-align: center;
     background: url(../img/bg1.svg)no-repeat;
@@ -269,7 +270,7 @@ body {
     background: #3C3C3C;
 }
 
-.col-8__button a {
+.button__contact-us {
     display: block;
     padding: 20px 95px;
     max-width: 100%;
@@ -282,6 +283,10 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+.button__contact-us:hover {
+    background-color:brown;
 }
 
 .footer {
