@@ -1,8 +1,14 @@
 /* styles goes here */
+
 body {
     background-color: #E5E5E5;
+    
 }
-
+svg {
+    overflow: hidden;
+    bottom: 0;
+  
+}
 .header {
     display: block;
     height: 1070px;
@@ -51,7 +57,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-    width: 610px;
+    /* width: 610px; */
 }
 
 .border__title {
